@@ -20,6 +20,7 @@ def main():
 
     #program exits
     print("Terminating Program")
+    input("press any key to continue...")
     return
 
 
@@ -39,6 +40,7 @@ def open_file():
     except:
         print("specified file does not exist/incorrect path \n")
         print("program terminating")
+        input("press any key to continue...")
         return False
 
 #makes the neccessary processing and returns the given text
@@ -48,6 +50,7 @@ def file_processing(file):
     if text.isascii() == False:
         print("the text file contains non ascii characters \n")
         print("program terminating")
+        input("press any key to continue...")
         return False
     
     #removes all numbers
