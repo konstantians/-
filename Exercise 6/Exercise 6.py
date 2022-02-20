@@ -21,6 +21,7 @@ def main():
     print(f"player 1 gathered : {playerA_points} \n")
     print(f"player 2 gathered : {playerB_points} \n")
     print("program terminating")
+    input("press any key to continue...")
     
     return
 
