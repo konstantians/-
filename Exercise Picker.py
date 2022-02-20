@@ -13,3 +13,5 @@ lst=list(range(1,14))
 random.shuffle(lst)
 
 print(lst[:4])
+
+input("press any key to continue...")
