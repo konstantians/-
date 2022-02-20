@@ -25,6 +25,7 @@ def main():
     print(f"\n the average amount of moves needed to finish a game were {counter/100} moves or {int(counter/100)} moves")
 
     print("\n terminating program")
+    input("press any key to continue...")
              
 #create the tic_tac_toe_board with a 2 dimensional array/list
 def create_tic_tac_toe_board():
